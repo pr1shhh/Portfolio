@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prisha Sharma - Cybersecurity Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">prisha.exe</a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#articles" class="nav-link">Articles</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn-close"></span>
+                    <span class="btn-minimize"></span>
+                    <span class="btn-maximize"></span>
+                </div>
+                <div class="terminal-title">prisha@cyberspace:~$</div>
+            </div>
+            <div class="terminal-body">
+                <div class="terminal-line">
+                    <span class="prompt">prisha@cyberspace:~$</span>
+                    <span class="command">whoami</span>
+                </div>
+                <div class="terminal-output">
+                    <p>Cybersecurity Engineering Student & Ethical Hacker</p>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">prisha@cyberspace:~$</span>
+                    <span class="command">cat skills.txt</span>
+                </div>
+                <div class="terminal-output">
+                    <p>Penetration Testing | Web Development | Digital Forensics</p>
+                </div>
+                <div class="terminal-line">
+                    <span class="prompt">prisha@cyberspace:~$</span>
+                    <span class="cursor">▊</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="glitch-text" data-text="Prisha Sharma">Prisha Sharma</h1>
+            <div class="role-container">
+                <span class="role blink-glow">Cybersecurity Engineering Student</span>
+                <span class="separator">|</span>
+                <span class="role blink-glow">Flag Hunter</span>
+                <span class="separator">|</span>
+                <span class="role blink-glow">Web Developer</span>
+            </div>
+            <div class="quote-rotator">
+                <p id="rotating-quote" class="quote-text"></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>Curious by default and calm under pressure, I enjoy unraveling CTF puzzles and poking at the edges of systems to understand how they truly work, all while building practical web projects for fun and for learning. I am doubling down on fundamentals for the CompTIA Security+ exam, exploring threat models, secure design principles, and hands-on defenses I can bring to every project.</p>
+                <p>I thrive in new environments, bring a positive, collaborative energy to teams, and aren't afraid of the grind when something worth building is on the line. If you're into cybersecurity, clever exploits, or just cool web ideas, say hello—I'm always up for a good problem and a better conversation.</p>
+                <div class="education-card">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="edu-details">
+                        <h4>Shah & Anchor Kutchhi Engineering College</h4>
+                        <p>B.Tech. in Cyber Security — Third Year Student</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+                        <p><i class="fas fa-certificate"></i> Currently studying for CompTIA Security+ certification</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Penetration Testing</h3>
+                    <p>Vulnerability assessment, exploitation, and security testing</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, and modern web technologies</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Digital Forensics</h3>
+                    <p>Evidence collection, analysis, and incident investigation</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Social Engineering</h3>
+                    <p>Human psychology and security awareness training</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>Threat Analysis</h3>
+                    <p>Risk assessment and threat intelligence</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Incident Response</h3>
+                    <p>Security incident handling and mitigation</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-network-wired"></i>
+                    <h3>Network Security</h3>
+                    <p>Network defense and monitoring</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-industry"></i>
+                    <h3>Operational Technology Security</h3>
+                    <p>OT security implementation and industrial control systems</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3><i class="fas fa-flag"></i> CyberQuest CTF Challenge</h3>
+                    <p>Developed the web challenge component for the Cyber Colloquy Event's CTF competition, creating engaging and educational security challenges for participants.</p>
+                    <div class="project-tags">
+                        <span class="tag">CTF</span>
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Security</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fas fa-hospital-user"></i> Online Healthcare Appointment & Record System</h3>
+                    <p>Developed a comprehensive web-based healthcare management system enabling patients to book appointments, access medical records, and communicate with healthcare providers securely.</p>
+                    <div class="project-tags">
+                        <span class="tag">Web Development</span>
+                        <span class="tag">Database</span>
+                        <span class="tag">Healthcare</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fas fa-wave-square"></i> Arduino-Based Seismometer</h3>
+                    <p>Designed and deployed a low-cost seismometer using Arduino, sensor modules, and a calibrated sampling pipeline to log micro-tremors for basic event detection and visualization.</p>
+                    <div class="project-tags">
+                        <span class="tag">Arduino</span>
+                        <span class="tag">IoT</span>
+                        <span class="tag">Data Analysis</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fas fa-keyboard"></i> Keylogger </h3>
+                    <p>Built a controlled keylogger to study attack chains, persistence, and detection; translated findings into defensive guidance, EDR rule ideas, and secure input handling patterns.</p>
+                    <div class="project-tags">
+                        <span class="tag">Malware Analysis</span>
+                        <span class="tag">EDR</span>
+                        <span class="tag">Defense</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fas fa-laptop-code"></i> Personal Portfolio</h3>
+                    <p>A responsive portfolio website showcasing my skills, projects, and achievements in cybersecurity. Built with modern web technologies and featuring a terminal-inspired design.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fas fa-crosshairs"></i> CTF Practice Platform</h3>
+                    <p>Actively participating in various CTF competitions on platforms like TryHackMe, enhancing my practical skills in ethical hacking and security challenges.</p>
+                    <div class="project-tags">
+                        <span class="tag">Ethical Hacking</span>
+                        <span class="tag">CTF</span>
+                        <span class="tag">Practice</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="articles" class="section">
+  <div class="container">
+    <h2 class="section-title">Articles & Research</h2>
+    <p class="section-description">My latest technical and research writings in cybersecurity, AI, and software engineering.</p>
+
+    <div class="articles-grid">
+      <div class="article-card" onclick="toggleArticle('ai_cyber')">
+        <div class="article-icon"><i class="fas fa-robot"></i></div>
+        <h3>Applications of Artificial Intelligence in Cyber Security</h3>
+        <p>How AI enhances threat detection, prevention, and response in modern cybersecurity.</p>
+        <button class="btn-read-more"><i class="fas fa-book-open"></i> Read More</button>
+      </div>
+
+      <div class="article-card" onclick="toggleArticle('etl')">
+        <div class="article-icon"><i class="fas fa-database"></i></div>
+        <h3>The ETL Process: Extract, Transform, and Load Explained</h3>
+        <p>Understanding data pipelines for cybersecurity analytics and data management.</p>
+        <button class="btn-read-more"><i class="fas fa-book-open"></i> Read More</button>
+      </div>
+
+      <div class="article-card" onclick="toggleArticle('darkweb_new')">
+        <div class="article-icon"><i class="fas fa-user-secret"></i></div>
+        <h3>Dark Web Investigations: Tools, Techniques, and Challenges</h3>
+        <p>Exploring how investigators uncover cybercrime in the hidden corners of the web.</p>
+        <button class="btn-read-more"><i class="fas fa-book-open"></i> Read More</button>
+      </div>
+
+      <div class="article-card" onclick="toggleArticle('turing')">
+        <div class="article-icon"><i class="fas fa-infinity"></i></div>
+        <h3>Applications of Turing Machines in Artificial Intelligence and Problem Solving</h3>
+        <p>How Turing’s theory of computation continues to shape AI and automation today.</p>
+        <button class="btn-read-more"><i class="fas fa-book-open"></i> Read More</button>
+      </div>
+
+      <div class="article-card" onclick="toggleArticle('software_design')">
+        <div class="article-icon"><i class="fas fa-code"></i></div>
+        <h3>Basics of Software Design in Software Engineering and Project Management</h3>
+        <p>The role of design in building scalable, maintainable, and successful software projects.</p>
+        <button class="btn-read-more"><i class="fas fa-book-open"></i> Read More</button>
+      </div>
+    </div>
+
+    <div class="article-disclaimer">
+      <i class="fas fa-info-circle"></i>
+      <p><strong>Note:</strong> These articles are original works authored by <strong>Prisha Sharma</strong>. Reuse or citation should include proper credit.</p>
+    </div>
+  </div>
+</section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Feel free to reach out for collaborations, opportunities, or just to connect!</p>
+                <div class="social-links">
+                    <a href="https://github.com/pr1shhh" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/prisha-sharma-027a40293" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://tryhackme.com/p/DianXianle" target="_blank" class="social-link">
+                        <i class="fas fa-flag"></i> TryHackMe
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; <span id="year">2025</span> Prisha Sharma. All rights reserved.</p>
+        <p class="footer-tagline">Built with <i class="fas fa-heart" style="color: #08CB00;"></i> and caffeine</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
