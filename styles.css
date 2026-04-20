@@ -930,3 +930,19 @@ max-width: 95%;
         font-size: 1.5rem;
     }
 }
+
+/* 👇 ADD HERE (OUTSIDE MEDIA QUERY) */
+.video-title {
+    color: var(--primary-green);
+    font-size: 1.1rem;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.video-desc {
+    color: var(--light-gray);
+    font-size: 0.9rem;
+    text-align: center;
+    opacity: 0.85;
+    margin-top: 5px;
+}
