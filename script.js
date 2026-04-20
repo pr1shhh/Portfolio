@@ -610,7 +610,7 @@ const articleContent = {
             <p>By following sound design principles, leveraging modeling techniques, and integrating with strong project management practices, organizations can deliver software that meets both technical excellence and business value.</p>
         `,
         author: "Prisha Sharma | Software Engineering & Cybersecurity Enthusiast | Exploring System Design and Project Innovation"
-    }
+    },
 
     crypto_network: {
     title: "The Role of Cryptography in Modern Network Security",
