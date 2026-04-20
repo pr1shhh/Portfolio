@@ -611,6 +611,52 @@ const articleContent = {
         `,
         author: "Prisha Sharma | Software Engineering & Cybersecurity Enthusiast | Exploring System Design and Project Innovation"
     }
+
+    crypto_network: {
+    title: "The Role of Cryptography in Modern Network Security",
+    content: `
+        <p>In today’s digital world, where almost every activity—from banking to communication—happens online, ensuring the security of data has become extremely important. Cyber threats such as hacking, data breaches, and identity theft are increasing rapidly. To protect sensitive information from such threats, cryptography plays a crucial role in modern network security.</p>
+
+        <p>Cryptography is the practice of securing information by converting it into an unreadable format, known as ciphertext. Only authorized users with the correct key can convert it back into its original form, called plaintext. This ensures that even if data is intercepted during transmission, it cannot be understood by attackers.</p>
+
+        <h3>1. Encryption in Network Security</h3>
+        <p>Encryption transforms readable data into an encoded format using algorithms. There are two main types of encryption:</p>
+
+        <p><strong>Symmetric Encryption:</strong> Uses a single key for both encryption and decryption. It is fast and efficient but requires secure key sharing.</p>
+
+        <p><strong>Asymmetric Encryption:</strong> Uses a pair of keys—a public key and a private key. The public key encrypts data, while the private key decrypts it. This method is widely used in secure communications.</p>
+
+        <p>Protocols like HTTPS use encryption (SSL/TLS) to secure communication between users and servers, preventing attackers from stealing sensitive data such as passwords and payment details.</p>
+
+        <h3>2. Hashing for Data Integrity</h3>
+        <p>Hashing converts data into a fixed-length string known as a hash value. Unlike encryption, hashing is a one-way process, meaning the original data cannot be retrieved.</p>
+
+        <p>Hashing is commonly used for storing passwords securely. Instead of saving actual passwords, systems store hash values. Even if attackers gain access to the database, retrieving the original passwords is extremely difficult.</p>
+
+        <h3>3. Digital Signatures and Authentication</h3>
+        <p>Digital signatures ensure the authenticity and integrity of data. They verify that a message has not been altered and confirm the identity of the sender.</p>
+
+        <p>They are widely used in secure emails, software distribution, and online transactions.</p>
+
+        <h3>4. Role in Network Security</h3>
+        <p>Cryptography plays a key role in securing modern networks by:</p>
+        <ul>
+            <li>Protecting sensitive data during transmission</li>
+            <li>Ensuring user authentication and access control</li>
+            <li>Maintaining data integrity</li>
+            <li>Preventing unauthorized access and attacks</li>
+        </ul>
+
+        <h3>5. Challenges in Cryptography</h3>
+        <p>Despite its advantages, cryptography faces challenges such as key management issues and evolving threats. Poor key handling can compromise entire systems.</p>
+
+        <p>Additionally, advancements like quantum computing may weaken traditional encryption methods, leading to the development of quantum-resistant algorithms.</p>
+
+        <h3>6. Conclusion</h3>
+        <p>Cryptography is a fundamental pillar of modern network security. It ensures confidentiality, integrity, and authenticity in digital communication. As cyber threats continue to evolve, strong cryptographic practices will remain essential for protecting data and maintaining trust in digital systems.</p>
+    `,
+    author: "Prisha Sharma | Cybersecurity Engineering Student | Exploring Cryptography & Network Security"
+},
 };
 /* ---------------------------------------------------------- */
 
