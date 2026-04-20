@@ -656,7 +656,7 @@ const articleContent = {
         <p>Cryptography is a fundamental pillar of modern network security. It ensures confidentiality, integrity, and authenticity in digital communication. As cyber threats continue to evolve, strong cryptographic practices will remain essential for protecting data and maintaining trust in digital systems.</p>
     `,
     author: "Prisha Sharma | Cybersecurity Engineering Student | Exploring Cryptography & Network Security"
-},
+}
 };
 /* ---------------------------------------------------------- */
 
