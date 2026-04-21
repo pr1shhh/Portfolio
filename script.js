@@ -689,33 +689,46 @@ const articleContent = {
     incident_response: {
     title: "Incident Response in Security Operations Centers (SOC)",
     content: `
-        <p>In today’s digital environment, cyber threats are increasing rapidly and becoming more sophisticated...</p>
+        <p>In today’s digital world, cyber threats such as ransomware, phishing attacks, and data breaches are increasing rapidly. Organizations must be prepared not only to prevent these attacks but also to respond effectively when they occur. This is where Incident Response (IR) plays a crucial role in a Security Operations Center (SOC).</p>
+
+        <p>Incident Response is a structured approach used to identify, manage, and mitigate cybersecurity incidents. Its main objective is to reduce damage, recover systems quickly, and prevent future attacks. A well-defined incident response process helps organizations maintain security, protect sensitive data, and ensure business continuity.</p>
 
         <h3>1. What is Incident Response?</h3>
-        <p>Incident Response is a structured approach used by SOC teams to detect, analyze, and respond to security incidents.</p>
+        <p>An incident refers to any event that compromises the confidentiality, integrity, or availability of a system. Incident Response involves a set of procedures followed by security teams to detect, analyze, and respond to such events efficiently.</p>
+
+        <p>Examples of incidents include malware infections, unauthorized access, insider threats, and denial-of-service attacks. Instead of reacting randomly, organizations follow a systematic process to handle these situations.</p>
 
         <h3>2. Phases of Incident Response</h3>
 
         <h4>a) Preparation</h4>
-        <p>Organizations prepare by developing policies, training teams, and setting up tools.</p>
+        <p>This phase involves setting up tools, policies, and training teams. Organizations deploy tools like SIEM, IDS, and EDR to monitor systems and prepare for potential threats.</p>
 
         <h4>b) Detection and Analysis</h4>
-        <p>Security tools monitor logs and detect suspicious activity.</p>
+        <p>Security systems generate alerts based on suspicious activities. Analysts investigate these alerts to determine whether they represent real threats or false positives.</p>
 
         <h4>c) Containment</h4>
-        <p>Systems are isolated to stop the attack from spreading.</p>
+        <p>Once an incident is confirmed, steps are taken to limit its impact. This includes isolating affected systems, blocking malicious IPs, or disabling compromised accounts.</p>
 
         <h4>d) Eradication</h4>
-        <p>Malware and vulnerabilities are removed.</p>
+        <p>In this phase, the root cause of the incident is removed. Malware is deleted, vulnerabilities are patched, and unauthorized access is eliminated.</p>
 
         <h4>e) Recovery</h4>
-        <p>Systems are restored and monitored.</p>
+        <p>Systems are restored to normal operation. Data is recovered from backups, and systems are monitored to ensure the threat does not return.</p>
 
         <h4>f) Post-Incident Review</h4>
-        <p>Lessons are analyzed to improve future response.</p>
+        <p>After resolving the incident, teams analyze what happened and improve their security strategies to prevent similar attacks in the future.</p>
+
+        <h3>3. Tools Used in Incident Response</h3>
+        <p>SOC teams use various tools to handle incidents effectively. SIEM tools collect and analyze logs, EDR tools monitor endpoint activities, and SOAR platforms automate response actions. These tools help reduce response time and improve accuracy.</p>
+
+        <h3>4. Real-World Applications</h3>
+        <p>Incident response is widely used in handling ransomware attacks, phishing attempts, and data breaches. For example, in a ransomware attack, infected systems are isolated, malware is removed, and data is restored from backups.</p>
+
+        <h3>5. Importance of Incident Response</h3>
+        <p>Incident response helps minimize damage, protect sensitive information, and maintain customer trust. It also ensures compliance with security regulations and improves overall security posture.</p>
 
         <h3>Conclusion</h3>
-        <p>Incident response is essential for modern cybersecurity and helps organizations stay resilient.</p>
+        <p>Incident Response is a vital component of modern cybersecurity. By following a structured approach, organizations can effectively handle cyber threats and ensure resilience against future attacks. For cybersecurity professionals, understanding incident response is essential for building strong and secure systems.</p>
     `,
     author: "Prisha Sharma | SOC & Incident Response"
 }
