@@ -684,6 +684,40 @@ const articleContent = {
         <p>In conclusion, Security Information and Event Management (SIEM) is a fundamental component of modern Security Operations Centers. It enables organizations to collect, analyze, and respond to security events in real time, providing comprehensive visibility across their IT infrastructure. By leveraging techniques such as log correlation, anomaly detection, and threat intelligence integration, SIEM helps organizations stay ahead of evolving cyber threats. While challenges such as cost and complexity remain, ongoing advancements in automation and artificial intelligence are making SIEM more efficient and accessible. For cybersecurity professionals, understanding SIEM tools and techniques is essential for building a resilient and proactive security strategy in an increasingly digital world.</p>
     `,
     author: "Prisha Sharma"
+},
+
+    incident_response: {
+    title: "Incident Response in Security Operations Centers (SOC)",
+    content: `
+        <p>In today’s digital environment, cyber threats are increasing rapidly and becoming more sophisticated...</p>
+
+        <h3>1. What is Incident Response?</h3>
+        <p>Incident Response is a structured approach used by SOC teams to detect, analyze, and respond to security incidents.</p>
+
+        <h3>2. Phases of Incident Response</h3>
+
+        <h4>a) Preparation</h4>
+        <p>Organizations prepare by developing policies, training teams, and setting up tools.</p>
+
+        <h4>b) Detection and Analysis</h4>
+        <p>Security tools monitor logs and detect suspicious activity.</p>
+
+        <h4>c) Containment</h4>
+        <p>Systems are isolated to stop the attack from spreading.</p>
+
+        <h4>d) Eradication</h4>
+        <p>Malware and vulnerabilities are removed.</p>
+
+        <h4>e) Recovery</h4>
+        <p>Systems are restored and monitored.</p>
+
+        <h4>f) Post-Incident Review</h4>
+        <p>Lessons are analyzed to improve future response.</p>
+
+        <h3>Conclusion</h3>
+        <p>Incident response is essential for modern cybersecurity and helps organizations stay resilient.</p>
+    `,
+    author: "Prisha Sharma | SOC & Incident Response"
 }
 };
 /* ---------------------------------------------------------- */
