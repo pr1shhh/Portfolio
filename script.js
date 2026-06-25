@@ -738,6 +738,76 @@ const articleContent = {
         <p>Incident Response is a vital component of modern cybersecurity within a Security Operations Center. By following a structured approach and using advanced tools, organizations can effectively detect, respond to, and recover from cyber threats. In an era of constantly evolving attacks, a strong incident response strategy is essential for ensuring security and resilience.</p>
     `,
     author: "Prisha Sharma | SOC & Incident Response"
+},
+
+    vpc_security: {
+    title: "Cloud Security 101: Stop Treating Your VPC Like a Public Square",
+
+    content: `
+
+<p>In the early days of cloud computing, launching a server could feel like putting your data right out in the middle of a busy public market. Convenient? Yes. Secure? Not quite.</p>
+
+<p>That is why Amazon Virtual Private Cloud (Amazon VPC) is the foundation of secure AWS infrastructure. It transforms the public cloud into your own logically isolated network where you control routing, connectivity, and security.</p>
+
+<p>However, simply creating a VPC does not make an environment secure. Security depends on how well the network is designed. A strong architecture follows a Defense-in-Depth strategy, where multiple security layers work together to reduce risk.</p>
+
+<h3>1. Separate Public and Private Subnets</h3>
+
+<p>A common mistake is placing every resource inside the same subnet. Production workloads should always be separated based on their purpose.</p>
+
+<ul>
+<li><strong>Public Subnets</strong> should contain only internet-facing resources such as Application Load Balancers, Bastion Hosts, and Web Servers.</li>
+
+<li><strong>Private Subnets</strong> should host backend application servers, databases, and internal services that never require direct internet access.</li>
+
+<li>Private resources that need software updates should access the internet through a <strong>NAT Gateway</strong> instead of receiving public IP addresses.</li>
+</ul>
+
+<p>This design significantly reduces the attack surface while maintaining functionality.</p>
+
+<h3>2. Use Both AWS Firewall Layers Correctly</h3>
+
+<p>AWS provides two complementary security mechanisms that work at different layers.</p>
+
+<h4>Network ACLs</h4>
+
+<ul>
+<li>Operate at the subnet level.</li>
+<li>Stateless firewall.</li>
+<li>Uses ordered Allow and Deny rules.</li>
+<li>Filters all traffic entering or leaving a subnet.</li>
+</ul>
+
+<h4>Security Groups</h4>
+
+<ul>
+<li>Operate at the resource level.</li>
+<li>Stateful firewall.</li>
+<li>Automatically allows return traffic.</li>
+<li>Controls inbound and outbound access for EC2 instances and other AWS resources.</li>
+</ul>
+
+<p>Using both together provides layered network protection and minimizes unauthorized access.</p>
+
+<h3>3. Keep AWS Traffic Private</h3>
+
+<p>Communication between your private workloads and AWS services such as Amazon S3 or DynamoDB should never travel over the public internet.</p>
+
+<p>Instead, use <strong>VPC Endpoints (AWS PrivateLink)</strong>. This keeps traffic entirely on the AWS private backbone while improving security, lowering latency, and reducing NAT Gateway costs.</p>
+
+<h3>4. Monitor Everything</h3>
+
+<p>You cannot secure what you cannot see.</p>
+
+<p>Enable <strong>VPC Flow Logs</strong> to record network traffic entering and leaving your VPC. These logs help security teams detect unusual behavior, investigate incidents, troubleshoot connectivity issues, and strengthen overall visibility.</p>
+
+<h3>Final Thoughts</h3>
+
+<p>A secure VPC is built through thoughtful architecture rather than default settings. By separating public and private resources, implementing Security Groups and Network ACLs correctly, using VPC Endpoints, and enabling Flow Logs, organizations can build resilient AWS environments capable of defending against modern threats.</p>
+
+`,
+
+    author: "Prisha Sharma | Cybersecurity | Cloud Security | AWS"
 }
 };
 /* ---------------------------------------------------------- */
